@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <vizpath>usr/bin/plantuml</vizpath>
+    <package>pip</package>
+    <maxdepth>3</maxdepth> 
+</config>
