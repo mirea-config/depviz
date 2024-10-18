@@ -49,8 +49,6 @@ impl<'a> Depviz<'a> {
 
     #[cfg(target_os = "linux")]
     fn collect_dependencies(&self, package: &str, deps: &mut Vec<(String, String)>, depth: u8) {
-        println!("curr depth: {}", depth);
-
         let output = Command::new("apt-cache")
             .arg("depends")
             .arg(package)
